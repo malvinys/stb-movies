@@ -1,0 +1,63 @@
+.base-card {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background: #032541;
+    border-radius: 6px;
+    position: relative;
+    min-height: 400px;
+    height: 40vh;
+    width: 200px;;
+
+    &-image {
+        img {
+            border-radius: 6px;
+            height: 300px;
+            width: 100%;
+        }
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.6;
+        }
+    }
+
+    &-rating {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        color: white;
+        background: #032541;
+        padding: 8px 10px;
+        font-size: 20px;
+        font-weight: 700;
+        border: 2px solid $colorTmdbLightBlue;
+        border-radius: 50%;
+    }
+
+    &-content {
+        padding: 12px;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.6;
+        }
+
+        h2 {
+            font-size: 1em;
+            margin: 0;
+            width: 100%;
+            word-wrap: normal;
+            overflow-wrap: break-word;
+            color: $colorWhite;
+        }
+
+        p {
+            font-size: 0.9em;
+            margin: 0;
+            width: 100%;
+            word-wrap: normal;
+            overflow-wrap: break-word;
+            color: $colorWhite;
+        }
+    }
+}
