@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
-import { setModalMovieImage, moviesSelector } from '../../models/Movies';
+import { setModalMovieImage, moviesSelector } from '../../../models/Movies';
 
 const ModalImage = () => {
   const dispatch = useDispatch();
